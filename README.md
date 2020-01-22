@@ -9,7 +9,7 @@ Potrzebne do dzialania:
 
 Konfiguracja:
 - jezeli bedzie uzyta inna plytka to nalezy zedytowac plik "platformio.ini" gdzie nalezy zmienic model lub utworzyc nowy projekt, w     kreatorze wybrac dana plytke i zamienic te pliki
-- w pliku "Adafruit_ST7735.cpp" pod funkcja "void Adafruit_ST7735::initR" (259 wiersz) znajduja sie rozne opcje inicjalizacji w zaleznosci od wyswietlacza, jezeli zmienia sie wyswietlacz trzeba podac oraz offset ekranu - "colstart" i "rowstart"
+- w pliku "Adafruit_ST7735.cpp" pod funkcja "void Adafruit_ST7735::initR" (259 wiersz) znajduja sie rozne opcje inicjalizacji w zaleznosci od wyswietlacza, jezeli zmienia sie wyswietlacz trzeba podac offset ekranu - "colstart" i "rowstart"
 - predkosc SPI mozna ustawic w pliku "Adafruit_ST7735.cpp" (234 wiersz) - "lcdPort.frequency(40000000);"
 - parametry CANa mozna zmienic w pliku "main.ccp" (76 wiersz)
 
